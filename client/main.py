@@ -7,5 +7,4 @@ def call_api():
     return '"' + json["message"]
 
 if __name__ == "__main__":
-    for i in range(5):
-        print(call_api())
+    print(call_api())
